@@ -16,7 +16,7 @@ const store = createStore(rootReducer)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={'https://pigpenguinman.github.io/1107React-test'} >
+    <BrowserRouter basename={'https://pigpenguinman.github.io/1107-retry'} >
       <Provider store={store}>
         <App />
       </Provider>
